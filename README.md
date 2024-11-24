@@ -67,8 +67,7 @@ Provides authentication and authorization functionalities.
 
 
 ## Project Structure
-#
-#
+
 ```
 travel-API
 ├── auth_service
@@ -218,7 +217,7 @@ All project dependencies are listed in the `requirements.txt` file.
 ## Testing Endpoints
 Each service has its own set of API endpoints as described above. You can test them using OpenAPI/Swagger UI.
 
-## Example Request for User Service
+### Example Request for User Service
 
 ### 1. **Register New User**
 **POST** `/api/register`
@@ -276,7 +275,7 @@ Each service has its own set of API endpoints as described above. You can test t
   }
   ```
 
-## Example Request for Destination Service
+### Example Request for Destination Service
 
 ### 1. **Add Destination** (Admin Only)
 **POST** `/api/destinations`
@@ -319,7 +318,7 @@ Each service has its own set of API endpoints as described above. You can test t
   ]
   ```
   
-## Example Request for Auth Service
+### Example Request for Auth Service
 
 ### 1. **Verify Token**
 **GET** `/api/auth/verify`
