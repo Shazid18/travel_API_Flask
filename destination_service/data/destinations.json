@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Paris",
+        "description": "City of Light",
+        "location": "France"
+    },
+    {
+        "id": 2,
+        "name": "Tokyo",
+        "description": "Land of the Rising Sun",
+        "location": "Japan"
+    },
+    {
+        "id": 3,
+        "name": "New York",
+        "description": "The Big Apple",
+        "location": "USA"
+    },
+    {
+        "id": 4,
+        "name": "London",
+        "description": "The Capital of England",
+        "location": "United Kingdom"
+    },
+    {
+        "id": 5,
+        "name": "Sydney",
+        "description": "Harbour City",
+        "location": "Australia"
+    },
+    {
+        "id": 6,
+        "name": "Rome",
+        "description": "The Eternal City",
+        "location": "Italy"
+    },
+    {
+        "id": 7,
+        "name": "Berlin",
+        "description": "The Heart of Europe",
+        "location": "Germany"
+    },
+    {
+        "id": 8,
+        "name": "Moscow",
+        "description": "The Third Rome",
+        "location": "Russia"
+    },
+    {
+        "id": 9,
+        "name": "Cairo",
+        "description": "City of a Thousand Minarets",
+        "location": "Egypt"
+    },
+    {
+        "id": 10,
+        "name": "Rio de Janeiro",
+        "description": "The Marvelous City",
+        "location": "Brazil"
+    }
+]

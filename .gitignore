@@ -1,0 +1,62 @@
+# Ignore virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Environment variables file (if you use one)
+.env
+
+# Flask instance folder
+instance/
+
+# pyenv version files
+.python-version
+
+# IDEs and text editors configuration
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Log files
+*.log
+
+# Flask migration files (if you use Flask-Migrate)
+migrations/
+
+# Python packages
+*.egg
+*.egg-info/
+dist/
+build/
+
+# pytest cache
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage files
+.coverage
+coverage.xml
+*.cover
+*.hypothesis/
+
+# mypy cache
+.mypy_cache/
+
+# pipenv files
+Pipfile.lock
+
+# Docker related files (if you use Docker)
+docker-compose.yml
+Dockerfile

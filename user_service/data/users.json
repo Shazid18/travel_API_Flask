@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Ahmed Shamir Shazid",
+        "email": "shazid@example.com",
+        "password": "$pbkdf2-sha256$29000$m9PaGwNg7N3bO2csBQDgvA$PFtjwgwlELAu.dOcGb/ZsYeKtKbFJXBWyilZvQ9H9ck",
+        "role": "User"
+    },
+    {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "password": "$pbkdf2-sha256$29000$NkbIGeMcQ.g9xzhHyFkLAQ$gn.o5vhA/1Cjx8gOL4dVIL6.4bVG3SVPOgPGV6HnHxU",
+        "role": "Admin"
+    },
+    {
+        "name": "Sakib Doe",
+        "email": "sakib@example.com",
+        "password": "$pbkdf2-sha256$29000$fg/hvLeWci7F2JsTIqSUUg$aiqOo0uZ6jqppOGIpBqm4YO70Pdry8/fwbHwTeUMKfc",
+        "role": "User"
+    },
+    {
+        "name": "Zahin Khan",
+        "email": "zahin@example.com",
+        "password": "$pbkdf2-sha256$29000$rnXuXUtJaS0FgND6nxOCEA$ct0C89Bbrq5SbwEX.njHBpYlINESq2fksZiGVIEzNSE",
+        "role": "User"
+    },
+    {
+        "name": "Dipto Doe",
+        "email": "dipto@example.com",
+        "password": "$pbkdf2-sha256$29000$FAJAKCVEyNmb03pP6T0nJA$Ji4DBraW8ZzQjSV3dBng8ukR3Ex2kNYgJNI5LkGJ9Qw",
+        "role": "User"
+    },
+    {
+        "name": "Razia Doe",
+        "email": "razia@gmail.com",
+        "password": "$pbkdf2-sha256$29000$/B8jpDRGaE3pnVOqNSaklA$AbaQ6fRoAKfc0Pa5daD4YhyXRMTPvLNrS1dDUBax9xs",
+        "role": "User"
+    }
+]
