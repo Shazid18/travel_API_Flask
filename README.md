@@ -187,7 +187,7 @@ All project dependencies are listed in the `requirements.txt` file.
    ```
 2. **Create a Virtual Environment**
     ```bash
-   python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate  # For Linux/macOS
     venv\Scripts\activate     # For Windows
    ```
@@ -205,7 +205,7 @@ All project dependencies are listed in the `requirements.txt` file.
     To execute tests for any service, navigate to the respective service directory and run the following command:
     ```bash
     cd user_service
-    pytest --cov=app --cov-report=term-missing tests/
+    pytest tests/
    ```
 6. **Repeate Step 4 and Step 5 to Run and Tests the other microservices with their respective service directory**
 7. **Project will Run at:**
@@ -317,6 +317,22 @@ Each service has its own set of API endpoints as described above. You can test t
     }
   ]
   ```
+
+### 3. **Delete Destination** (Admin Only)
+**POST** `/api/destinations/{id}`
+
+- **Description**: Delete an existing destination by its ID. This endpoint is accessible only to admins.
+
+- **Headers**:
+  - `Authorization: Bearer {admin_jwt_token}`
+
+- **Response Body**:
+  ```
+  {
+    "message": "Destination deleted"
+  }
+  ```
+
   
 ### Example Request for Auth Service
 
