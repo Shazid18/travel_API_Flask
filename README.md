@@ -205,7 +205,7 @@ All project dependencies are listed in the `requirements.txt` file.
     To execute tests for any service, navigate to the respective service directory and run the following command:
     ```bash
     cd user_service
-    pytest tests/
+    pytest --cov=app tests/
    ```
 6. **Repeate Step 4 and Step 5 to Run and Tests the other microservices with their respective service directory**
 7. **Project will Run at:**
